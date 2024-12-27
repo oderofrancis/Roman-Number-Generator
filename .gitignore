@@ -1,2 +1,4 @@
 .env
 twilio_2FA_recovery_code.txt
+__pycache__/
+nohup.out

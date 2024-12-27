@@ -8,10 +8,8 @@ def generate_random_numbers():
     
     return three_digit, four_digit, five_digit, six_digit
 
-# Generate and display the random numbers
 random_numbers = generate_random_numbers()
 
-print("Random numbers generated:")
-for number in random_numbers:
-    print(number)
-
+number_labels = ["Three-digit", "Four-digit", "Five-digit", "Six-digit"]
+# for number in random_numbers:
+#     print(number)
